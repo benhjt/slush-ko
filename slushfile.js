@@ -8,7 +8,7 @@
 'use strict';
 
 var gulp = require('gulp'),
-	install = require('gulp-install'),
+	// install = require('gulp-install'),
 	conflict = require('gulp-conflict'),
 	template = require('gulp-template'),
 	rename = require('gulp-rename'),
@@ -37,8 +37,8 @@ var defaults = (function () {
 
 	return {
 		name: workingDirName,
-		authorName: user.name || '',
-		authorEmail: user.email || ''
+		authorName: (typeof user === "object") ? user.name : '',
+		authorEmail: (typeof user === "object") ? user.email : ''
 	};
 })();
 
@@ -75,7 +75,7 @@ gulp.task('default', function (done) {
 				}))
 				.pipe(conflict('./'))
 				.pipe(gulp.dest('./'))
-				// .pipe(install())
+				.pipe(install())
 				.on('finish', function () {
 					done();
 				});
