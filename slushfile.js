@@ -8,7 +8,7 @@
 'use strict';
 
 var gulp = require('gulp'),
-	// install = require('gulp-install'),
+	install = require('gulp-install'),
 	conflict = require('gulp-conflict'),
 	template = require('gulp-template'),
 	rename = require('gulp-rename'),
