@@ -39,7 +39,7 @@
     "iniparser": "^1.0.5"
   },
   "devDependencies": {
-	"chai": "*",
+    "chai": "*",
     "mocha": "*",
     "mock-gulp-dest": "~0.1.0"
   }
