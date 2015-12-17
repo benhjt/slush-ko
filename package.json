@@ -1,7 +1,7 @@
 {
   "name": "slush-ko",
   "description": "Slush generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/benhjt/slush-ko",
   "author": {
     "name": "Ben Thomas",
@@ -25,7 +25,7 @@
     "test": "mocha"
   },
   "keywords": [
-	"knockout"
+		"knockout"
   ],
   "dependencies": {
     "slush": ">=1.0.0",
