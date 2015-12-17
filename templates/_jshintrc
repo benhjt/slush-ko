@@ -3,16 +3,12 @@
   "browser": true,
   "bitwise": true,
   "curly": true,
-	"esnext": true,
   "eqeqeq": true,
+	"esnext": true,
   "forin": true,
   "futurehostile": true,
   "globals": {
-    "require": false,
-		"beforeEach": false,
-		"describe": false,
-		"before": false,
-		"it": false
+    "require": false
   },
   "latedef": false,
   "newcap": true,
