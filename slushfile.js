@@ -66,7 +66,7 @@ gulp.task('default', function (done) {
 			}
 			answers.longName = answers.name;
 			answers.slugName = _.slugify(answers.longName);
-			gulp.src(__dirname + '/templates/**')
+			gulp.src(__dirname + '/templates/app/**')
 				.pipe(template(answers))
 				.pipe(rename(function (file) {
 					if (file.basename[0] === '_') {
