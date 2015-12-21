@@ -26,7 +26,7 @@ $ cd my-app && slush ko
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/thomasb/slush-ko/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/benhjt/slush-ko/blob/master/CONTRIBUTING.md)
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/benhjt/slush-ko/issues).
